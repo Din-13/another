@@ -38,7 +38,7 @@ def print_predictions(preds):
 
 model = load_model()
 
-st.title('Классификация изображений')
+st.title('Классификация изображений Docker CI')
 img = load_image()
 result = st.button('Распознать изображение')
 if result:
